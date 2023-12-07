@@ -1,9 +1,11 @@
-
+Website: https://omdumrotat.github.io/
 ```
 Assignment 02 Stater
 ├─ css
 │  ├─ font.css
-│  └─ style.css
+│  └─ laptop.css
+│  ├─ mobile.css
+│  └─ tablet.css
 ├─ fonts
 │  ├─ OpenSans-Italic-webfont.eot
 │  ├─ OpenSans-Italic-webfont.svg
@@ -32,7 +34,13 @@ Assignment 02 Stater
 │  ├─ fontello.eot
 │  ├─ fontello.svg
 │  ├─ fontello.ttf
-│  └─ fontello.woff
+│  ├─ fontello.woff
+│  ├─ GoogleSans-Bold.ttf
+│  ├─ GoogleSans-BoldItalic.ttf
+│  ├─ GoogleSans-Italic.ttf
+│  ├─ GoogleSans-Medium.ttf
+│  ├─ Googlesans.MediumItalic.ttf
+│  └─ GoogleSans-Regular.ttf
 ├─ icon-list.html
 ├─ images
 │  ├─ Cert_PRF.png
@@ -44,7 +52,7 @@ Assignment 02 Stater
 │  ├─ project_2.png
 │  └─ project_3.png
 ├─ js
-| ├─ script.js
+│ └─ script.js
 └─ index.html
 
 ```
