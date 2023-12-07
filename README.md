@@ -43,6 +43,8 @@ Assignment 02 Stater
 │  ├─ project_1.png
 │  ├─ project_2.png
 │  └─ project_3.png
+├─ js
+| ├─ script.js
 └─ index.html
 
 ```
