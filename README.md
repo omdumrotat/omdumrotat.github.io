@@ -1,6 +1,6 @@
 Website: https://omdumrotat.github.io/
 ```
-Assignment 02 Stater
+Assignment 03 Stater
 ├─ css
 │  ├─ font.css
 │  └─ laptop.css
