@@ -21,7 +21,6 @@ function isEmailValid(email) {
             }
         }
 var elements = document.querySelectorAll(".grid-border");
-var showmore = document.querySelectorAll(".rounded-border2");
 elements.forEach(function(element) {
     element.addEventListener("mouseover", handleMouseOver);
     element.addEventListener("mouseout", handleMouseOut);
