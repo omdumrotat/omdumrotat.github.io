@@ -1,6 +1,8 @@
+// Check email để xem thông tin cá nhân
 let button = document.getElementById("sendemail");
 let email = document.getElementById("email");
 let warning = document.getElementById("warning");
+// regex pattern để check định dạng email
 const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 button.addEventListener("click", verify);
 function isEmailValid(email) {
@@ -20,6 +22,7 @@ function isEmailValid(email) {
                 document.querySelector("#warning").style.display = "block";
             }
         }
+// Nút hiên lên trong thông tin nghề nghiệp
 var elements = document.querySelectorAll(".grid-border");
 elements.forEach(function(element) {
     element.addEventListener("mouseover", handleMouseOver);
@@ -38,6 +41,7 @@ elements.forEach(function(element) {
 function handleMouseOver() {
     var showmore = this.querySelector(".rounded-border2");
     var paragraph = this.querySelector(".paragraph");
+    // Logic để test nếu nút đã bấm 
     if (!paragraph.classList.contains("show")) {
     showmore.style.display = "inline-block";
     this.style.transform = "scale(1.2)";
